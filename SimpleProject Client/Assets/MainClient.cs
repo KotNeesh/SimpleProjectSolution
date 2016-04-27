@@ -8,7 +8,7 @@ public class MainClient : MonoBehaviour
     NetworkMachine _network;
     ScenarioMachine _scenario;
     
-
+    //Start function
     public void Start ()
     {
         _messagesManager = new MessagesManager();
