@@ -26,6 +26,7 @@ namespace SimpleProject
             get
             {
                 return _GUI.Pos;
+                ///fdfsdf
             }
         }
     }
