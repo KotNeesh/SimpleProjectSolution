@@ -1,4 +1,4 @@
-﻿namespace SimpleProject
+﻿namespace SimpleProject.Mess
 {
     public interface IMessagesManagerNetwork
     {

@@ -1,6 +1,6 @@
 ﻿using System.Threading;
 
-namespace SimpleProject
+namespace SimpleProject.Sys
 {
     public abstract class StateMachine
     {

@@ -5,7 +5,7 @@ using System.Text;
 
 using System.Runtime.InteropServices;
 
-namespace SimpleProject
+namespace SimpleProject.Mess
 {
     using TypeID = Byte;
     public sealed class MessageAccount : MessageBase

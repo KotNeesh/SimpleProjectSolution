@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace SimpleProject
+namespace SimpleProject.Mess
 {
     using SizePacket = UInt16;
     using TypeID = Byte;

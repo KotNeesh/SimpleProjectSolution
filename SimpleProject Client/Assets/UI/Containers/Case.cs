@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-namespace SimpleProject
+namespace SimpleProject.Sce
 {
     public class Case : MonoBehaviour
     {

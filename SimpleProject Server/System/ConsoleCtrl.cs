@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace SimpleProject
+namespace SimpleProject.Sys
 {
     public class ConsoleCtrl : IDisposable
     {

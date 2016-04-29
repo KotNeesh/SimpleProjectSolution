@@ -5,7 +5,7 @@ using System.Text;
 
 using System.IO;
 
-namespace SimpleProject
+namespace SimpleProject.Mess
 {
     using SizePacket = UInt16;
     public interface IPacker : ITypeID

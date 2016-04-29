@@ -1,6 +1,5 @@
-﻿using System;
-
-namespace SimpleProject
+﻿
+namespace SimpleProject.Comm
 {
     public interface ICommand
     {

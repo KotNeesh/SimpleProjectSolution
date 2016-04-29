@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using SimpleProject.Mess;
+using SimpleProject.Comm;
+using SimpleProject.Use;
 
-
-namespace SimpleProject
+namespace SimpleProject.Sce
 {
     class SceneMenu : IScenario, ISceneMenuMessages
     {

@@ -8,7 +8,6 @@ namespace SimpleProject
     {
         static void Main(string[] args)
         {
-            MessageAccount m = new MessageAccount(MessageAccount.StateType.SignUp);
             Server server = new Server();
             server.Start();
         }

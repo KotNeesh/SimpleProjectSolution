@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Net.Sockets;
+using SimpleProject.Net;
 
-namespace SimpleProject
+namespace SimpleProject.Use
 {
     public class User : IUserNetwork, IUserProfile
     {

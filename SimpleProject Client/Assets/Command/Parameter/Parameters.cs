@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using SimpleProject.Sce;
+using SimpleProject.Mess;
 
-namespace SimpleProject
+namespace SimpleProject.Comm
 {
     class Parameters : IParameters,
         IParametersSceneMenuMessages,

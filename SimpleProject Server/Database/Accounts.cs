@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data.SqlClient;
 using System.Data;
+using SimpleProject.Use;
 
 namespace SimpleProject
 {

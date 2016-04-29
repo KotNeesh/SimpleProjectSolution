@@ -2,17 +2,19 @@
 using System.Net;
 using System.Net.Sockets;
 using System.Collections.Generic;
-using System;
+using SimpleProject.Mess;
+using SimpleProject.Sys;
+using SimpleProject.Use;
 
-namespace SimpleProject
+namespace SimpleProject.Net
 {
-    sealed class NetworkMachine : StateMachine
+    sealed class NetworkServerMachine : StateMachine
     {
         private TcpListener _listener;
         private List<IUserNetwork> _clients;
         private IMessagesManagerNetwork _messagesManager;
 
-        public NetworkMachine(IMessagesManagerNetwork messagesManager)
+        public NetworkServerMachine(IMessagesManagerNetwork messagesManager)
         {
             _messagesManager = messagesManager;
             _clients = new List<IUserNetwork>();

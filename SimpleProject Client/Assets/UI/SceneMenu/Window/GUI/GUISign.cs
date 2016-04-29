@@ -1,8 +1,9 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
+using SimpleProject.Mess;
+using SimpleProject.Comm;
 
-namespace SimpleProject
+namespace SimpleProject.Sce
 {
     public class GUISign : MonoBehaviour, IGUISign
     {

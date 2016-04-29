@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
+using SimpleProject.Comm;
 
-namespace SimpleProject
+namespace SimpleProject.Sce
 {
     public class SceneGame : MonoBehaviour
     {

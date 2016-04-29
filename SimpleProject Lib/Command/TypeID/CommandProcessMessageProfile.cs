@@ -1,6 +1,7 @@
 ﻿using System;
+using SimpleProject.Mess;
 
-namespace SimpleProject
+namespace SimpleProject.Comm
 {
     using TypeID = Byte;
     class CommandProcessMessageProfile : ICommandProcessMessage

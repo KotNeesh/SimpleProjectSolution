@@ -2,7 +2,7 @@
 using System.IO;
 
 
-namespace SimpleProject
+namespace SimpleProject.Mess
 {
     using TypeID = Byte;
     class PackerProfile : IPacker

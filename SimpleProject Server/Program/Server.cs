@@ -1,4 +1,9 @@
 ﻿using System.Threading;
+using SimpleProject.Mess;
+using SimpleProject.Comm;
+using SimpleProject.Net;
+using SimpleProject.Sys;
+using SimpleProject.Sce;
 
 namespace SimpleProject
 {
@@ -6,14 +11,14 @@ namespace SimpleProject
     {
         MessagesManager _messagesManager;
         SceneMenu _scene;
-        NetworkMachine _network;
+        NetworkServerMachine _network;
         ScenarioMachine _scenario;
         ConsoleCtrl cc;
         public Server()
         {
             _scene = new SceneMenu();
            _messagesManager = new MessagesManager();
-            _network = new NetworkMachine(_messagesManager);
+            _network = new NetworkServerMachine(_messagesManager);
             cc = new ConsoleCtrl();
             Parameters p = new Parameters(_messagesManager, _scene);
             _scenario = new ScenarioMachine(p);

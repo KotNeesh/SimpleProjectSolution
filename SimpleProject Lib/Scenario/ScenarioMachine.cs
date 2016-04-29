@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading;
-using System.Linq;
-using System.Text;
+using SimpleProject.Sys;
 
-namespace SimpleProject
+namespace SimpleProject.Comm
 {
     public class ScenarioMachine : StateMachine
     {

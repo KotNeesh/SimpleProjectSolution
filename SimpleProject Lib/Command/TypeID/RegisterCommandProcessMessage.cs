@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SimpleProject
+namespace SimpleProject.Comm
 {
     using TypeID = Byte;
     public static class RegisterCommandProcessMessage

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace SimpleProject
+namespace SimpleProject.Sce
 {
     public class GameMap
     {

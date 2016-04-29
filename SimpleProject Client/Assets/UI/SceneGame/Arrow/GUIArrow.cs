@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace SimpleProject
+namespace SimpleProject.Sce
 {
     public class GUIArrow : MonoBehaviour
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
+using SimpleProject.Comm;
 
-
-namespace SimpleProject
+namespace SimpleProject.Mess
 {
     public class MessagesManager : IScenario, IMessagesManagerNetwork, IMessagesManagerScenario
     {

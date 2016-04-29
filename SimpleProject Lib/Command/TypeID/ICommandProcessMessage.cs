@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using SimpleProject.Mess;
 
-namespace SimpleProject
+namespace SimpleProject.Comm
 {
     public interface ICommandProcessMessage : ITypeID
     {

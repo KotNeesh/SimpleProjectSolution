@@ -2,9 +2,11 @@
 using System.Threading;
 using System.Net;
 using System.Net.Sockets;
-using System.Collections.Generic;
+using SimpleProject.Sys;
+using SimpleProject.Use;
+using SimpleProject.Mess;
 
-namespace SimpleProject
+namespace SimpleProject.Net
 {
     sealed class NetworkMachine : StateMachine
     {

@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
-using SimpleProject;
+using SimpleProject.Mess;
+using SimpleProject.Net;
+using SimpleProject.Comm;
+using SimpleProject.Sce;
 
 public class MainClient : MonoBehaviour
 {
@@ -8,7 +11,6 @@ public class MainClient : MonoBehaviour
     NetworkMachine _network;
     ScenarioMachine _scenario;
     
-    //Start function
     public void Start ()
     {
         _messagesManager = new MessagesManager();

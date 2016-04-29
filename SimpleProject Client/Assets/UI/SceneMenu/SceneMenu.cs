@@ -1,7 +1,8 @@
-﻿using System;
-using UnityEngine;
-using System.Collections.Generic;
-namespace SimpleProject
+﻿using UnityEngine;
+using SimpleProject.Comm;
+using SimpleProject.Mess;
+
+namespace SimpleProject.Sce
 {
     public class SceneMenu : MonoBehaviour, ISceneMenuMessages
     {

@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using System.Collections;
+using SimpleProject.Mess;
+using SimpleProject.Comm;
 
-namespace SimpleProject
+namespace SimpleProject.Sce
 {
     public class GUIChat : MonoBehaviour
     {

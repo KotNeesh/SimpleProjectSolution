@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace SimpleProject
+namespace SimpleProject.Sce
 {
     public class Simplus
     {
@@ -26,7 +26,6 @@ namespace SimpleProject
             get
             {
                 return _GUI.Pos;
-                ///fdfsdf
             }
         }
     }

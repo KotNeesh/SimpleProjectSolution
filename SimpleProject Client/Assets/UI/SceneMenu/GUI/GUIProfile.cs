@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-namespace SimpleProject
+using SimpleProject.Mess;
+using SimpleProject.Use;
+
+namespace SimpleProject.Sce
 {
     public class GUIProfile : MonoBehaviour
     {

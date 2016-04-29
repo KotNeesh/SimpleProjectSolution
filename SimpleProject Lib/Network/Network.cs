@@ -1,7 +1,8 @@
 ﻿using System.Net.Sockets;
 using System;
+using SimpleProject.Use;
 
-namespace SimpleProject
+namespace SimpleProject.Net
 {
     using SizePacket = UInt16;
 

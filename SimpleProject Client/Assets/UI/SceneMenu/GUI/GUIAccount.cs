@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
-using System.Collections;
+using SimpleProject.Mess;
 
-namespace SimpleProject
+namespace SimpleProject.Sce
 {
     public class GUIAccount : MonoBehaviour
     {

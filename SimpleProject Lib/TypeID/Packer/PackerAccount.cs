@@ -6,7 +6,7 @@ using System.Text;
 using System.IO;
 
 
-namespace SimpleProject
+namespace SimpleProject.Mess
 {
     using TypeID = Byte;
     public class PackerAccount : IPacker
