@@ -5,7 +5,6 @@ using SimpleProject.Use;
 
 namespace SimpleProject.Data
 {
-
     /**
     <summary> 
     Выполняет операции над данными пользователя.

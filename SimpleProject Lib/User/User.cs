@@ -4,6 +4,11 @@ using SimpleProject.Net;
 
 namespace SimpleProject.Use
 {
+    /**
+    <summary> 
+    Хранит данные интернета и данные профиля.
+    </summary>
+    */
     public class User : IUserNetwork, IUserProfile
     {
         private IUserNetwork _network;

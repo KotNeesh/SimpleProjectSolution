@@ -3,6 +3,12 @@ using SimpleProject.Mess;
 
 namespace SimpleProject.Comm
 {
+
+    /**
+    <summary> 
+    Хранит все необходимые параметры для исполнения команд.
+    </summary>
+    */
     class ParametersClient : IParameters,
         IParametersSceneMenuMessages,
         IParametersMessagesManagerScenario

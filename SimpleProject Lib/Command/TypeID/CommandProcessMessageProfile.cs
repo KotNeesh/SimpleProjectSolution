@@ -4,7 +4,11 @@ using SimpleProject.Mess;
 namespace SimpleProject.Comm
 {
     using TypeID = Byte;
-
+    /**
+    <summary> 
+    Обрабатывает сообщения игрового профиля, пришедшие из интернета.
+    </summary>
+    */
     class CommandProcessMessageProfile : ICommandProcessMessage
     {
         byte ITypeID.Type

@@ -6,6 +6,11 @@ using SimpleProject.Net;
 namespace SimpleProject.Mess
 {
     using TypeID = Byte;
+    /**
+    <summary> 
+    Реестр всех распааковщиков пакетов.
+    </summary>
+    */
     public static class RegisterUnpacker
     {
         private static Dictionary<TypeID, IUnpacker> _dictionary = GetDictionary();

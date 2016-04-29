@@ -3,6 +3,7 @@
 namespace SimpleProject.Net
 {
     using SizePacket = UInt16;
+
     public class Packet
     {
         private Byte[] _data;

@@ -4,6 +4,11 @@ using SimpleProject.Mess;
 namespace SimpleProject.Comm
 {
     using TypeID = Byte;
+    /**
+    <summary> 
+    Обрабатывает сообщения аккаунта, пришедшие из интернета.
+    </summary>
+    */
     class CommandProcessMessageAccount : ICommandProcessMessage
     {
         byte ITypeID.Type

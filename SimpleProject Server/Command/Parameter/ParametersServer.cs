@@ -3,6 +3,11 @@ using SimpleProject.Sce;
 
 namespace SimpleProject.Comm
 {
+    /**
+    <summary> 
+    Хранит все необходимые параметры для исполнения команд.
+    </summary>
+    */
     class ParametersServer : IParameters,
         IParametersSceneMenuMessages,
         IParametersMessagesManagerScenario

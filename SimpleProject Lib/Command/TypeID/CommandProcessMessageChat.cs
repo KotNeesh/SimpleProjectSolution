@@ -4,6 +4,11 @@ using SimpleProject.Mess;
 namespace SimpleProject.Comm
 {
     using TypeID = Byte;
+    /**
+    <summary> 
+    Обрабатывает сообщения чата, пришедшие из интернета.
+    </summary>
+    */
     class CommandProcessMessageChat : ICommandProcessMessage
     {
         byte ITypeID.Type

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 namespace SimpleProject.Comm
 {
     using TypeID = Byte;
+
     public static class RegisterCommandProcessMessage
     {
         private static Dictionary<TypeID, ICommandProcessMessage> _dictionary = GetDictionary();
