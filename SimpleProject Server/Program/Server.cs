@@ -10,13 +10,13 @@ namespace SimpleProject
     sealed class Server
     {
         MessagesManager _messagesManager;
-        SceneMenu _scene;
+        SceneServerMenu _scene;
         NetworkServerMachine _network;
         ScenarioMachine _scenario;
         ConsoleCtrl cc;
         public Server()
         {
-            _scene = new SceneMenu();
+            _scene = new SceneServerMenu();
            _messagesManager = new MessagesManager();
             _network = new NetworkServerMachine(_messagesManager);
             cc = new ConsoleCtrl();

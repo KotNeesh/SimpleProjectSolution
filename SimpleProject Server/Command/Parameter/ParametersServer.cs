@@ -8,8 +8,8 @@ namespace SimpleProject.Comm
         IParametersMessagesManagerScenario
     {
         MessagesManager _messagesManager;
-        SceneMenu _scene;
-        public ParametersServer(MessagesManager messagesManager, SceneMenu scene)
+        SceneServerMenu _scene;
+        public ParametersServer(MessagesManager messagesManager, SceneServerMenu scene)
         {
             _messagesManager = messagesManager;
             _scene = scene;

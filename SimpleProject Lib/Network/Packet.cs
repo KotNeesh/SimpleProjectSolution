@@ -3,6 +3,11 @@
 namespace SimpleProject.Net
 {
     using SizePacket = UInt16;
+    /**
+    <summary>
+    Обертка над TCP потоком.
+    </summary>
+    */
     public class Packet
     {
         private Byte[] _data;

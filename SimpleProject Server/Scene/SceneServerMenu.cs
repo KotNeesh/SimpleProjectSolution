@@ -7,11 +7,11 @@ using SimpleProject.Data;
 
 namespace SimpleProject.Sce
 {
-    class SceneMenu : IScenario, ISceneMenuMessages
+    class SceneServerMenu : IScenario, ISceneMenuMessages
     {
         Scenario _scenario;
         DataSet _data;
-        public SceneMenu()
+        public SceneServerMenu()
         {
             _scenario = new Scenario();
             _data = new DataSet();

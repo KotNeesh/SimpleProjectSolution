@@ -4,6 +4,11 @@ using System.Collections.Generic;
 namespace SimpleProject.Comm
 {
     using TypeID = Byte;
+    /**
+    <summary>
+    Реестр всех команд обрабатывающих сообщения из интернета.
+    </summary>
+    */
     public static class RegisterCommandProcessMessage
     {
         private static Dictionary<TypeID, ICommandProcessMessage> _dictionary = GetDictionary();
