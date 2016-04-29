@@ -8,6 +8,13 @@ using SimpleProject.Use;
 
 namespace SimpleProject.Net
 {
+    /**
+    <summary> 
+    Получает сообщения от менеджера сообщений и отправляет их по назначению.
+    <para/>
+    Получает сообщения от клиента, складывает в менеджер сообщений, указывая от кого пришло данное сообщение.
+    </summary>
+    */
     sealed class NetworkServerMachine : StateMachine
     {
         private TcpListener _listener;

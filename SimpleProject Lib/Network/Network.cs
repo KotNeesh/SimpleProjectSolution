@@ -5,7 +5,11 @@ using SimpleProject.Use;
 namespace SimpleProject.Net
 {
     using SizePacket = UInt16;
-
+    /**
+    <summary> 
+    Обертка на уровне пакетов над TCP протоколом. 
+    </summary>
+    */
     public static class Network
     {
         public static void Send(IUserNetwork user)

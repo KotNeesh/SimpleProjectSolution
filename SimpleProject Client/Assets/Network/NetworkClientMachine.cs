@@ -8,7 +8,13 @@ using SimpleProject.Mess;
 
 namespace SimpleProject.Net
 {
- 
+    /**
+    <summary> 
+    Получает сообщения от сервера и складывает их в менеджер сообщений.
+    <para/>
+    Получает сообщения из менеджера сообщений и отправляет их серверу.
+    </summary>
+    */
     sealed class NetworkClientMachine : StateMachine
     {
         bool _isConnected;

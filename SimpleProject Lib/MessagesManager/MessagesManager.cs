@@ -3,6 +3,14 @@ using SimpleProject.Comm;
 
 namespace SimpleProject.Mess
 {
+    /**
+    <summary> 
+    Хранит очередь сообщений для отправки в интернет. 
+    <para/>
+    Хранит очередь доставленных из сети сообщений,
+    для которых находит команду для исполнения сеценарной машиной. 
+    </summary>
+    */
     public class MessagesManager : IScenario, IMessagesManagerNetwork, IMessagesManagerScenario
     {
         private Scenario _scenario;

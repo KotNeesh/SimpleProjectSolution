@@ -5,6 +5,12 @@ using SimpleProject.Use;
 
 namespace SimpleProject.Data
 {
+
+    /**
+    <summary> 
+    Выполняет операции над данными пользователя.
+    </summary>
+    */
     class DataSet
     {
         private static string path =Environment.CurrentDirectory +
