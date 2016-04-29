@@ -3,6 +3,11 @@
 
 namespace SimpleProject.Comm
 {
+    /**
+    <summary>
+    Сценарий отвечает за хранение и очередь исполнения команд.
+    </summary>
+    */
     public class Scenario : IScenario
     {
         private Queue<ICommand> _commands;

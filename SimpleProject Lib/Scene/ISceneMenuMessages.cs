@@ -2,6 +2,11 @@
 
 namespace SimpleProject.Sce
 {
+    /**
+    <summary>
+    Интерфейс обработки сообщений меню сценой
+    </summary>
+    */
     public interface ISceneMenuMessages
     {
         void Set(MessageChat message);

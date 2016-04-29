@@ -2,6 +2,11 @@
 
 namespace SimpleProject.Comm
 {
+    /**
+    <summary>
+    Команда для отправки сообщения в интернет.
+    </summary>
+    */
     public class CommandSendMessageNetwork : ICommand
     {
         IMessage _message;

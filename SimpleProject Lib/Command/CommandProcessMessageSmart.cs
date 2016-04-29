@@ -2,6 +2,11 @@
 
 namespace SimpleProject.Comm
 {
+    /**
+    <summary>
+    Команда для обработки сообщения из интернета.
+    </summary>
+    */
     public class CommandProcessMessageSmart : ICommand
     {
         private ICommandProcessMessage _command;

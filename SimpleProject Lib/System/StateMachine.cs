@@ -2,6 +2,11 @@
 
 namespace SimpleProject.Sys
 {
+    /**
+    <summary>
+    Машина исполняющая операции и работающая на отдельном потоке.
+    </summary>
+    */
     public abstract class StateMachine
     {
         private Thread _mainThread;

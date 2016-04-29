@@ -4,6 +4,14 @@ using SimpleProject.Sys;
 
 namespace SimpleProject.Comm
 {
+    /**
+    <summary>
+    Исполняет сценарии, вызывая по очереди команды.
+    <para />
+    Для того чтобы он исполнял сценарий, ему надо его добавить.
+    </summary>
+    */
+
     public class ScenarioMachine : StateMachine
     {
         IParameters _parameters;

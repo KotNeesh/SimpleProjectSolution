@@ -4,6 +4,7 @@ using SimpleProject.Mess;
 namespace SimpleProject.Comm
 {
     using TypeID = Byte;
+
     class CommandProcessMessageProfile : ICommandProcessMessage
     {
         byte ITypeID.Type

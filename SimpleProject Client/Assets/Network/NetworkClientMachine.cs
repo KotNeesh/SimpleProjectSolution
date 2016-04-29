@@ -8,6 +8,7 @@ using SimpleProject.Mess;
 
 namespace SimpleProject.Net
 {
+ 
     sealed class NetworkClientMachine : StateMachine
     {
         bool _isConnected;
@@ -23,6 +24,7 @@ namespace SimpleProject.Net
             _server.Socket.ReceiveBufferSize = 1024;
             _messagesManager = messagesManager;
         }
+
         protected override bool Init()
         {
             
