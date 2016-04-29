@@ -7,6 +7,11 @@ using SimpleProject.Sce;
 
 namespace SimpleProject
 {
+    /**
+    <summary> 
+    Управление сервером.
+    </summary>
+    */
     sealed class Server
     {
         MessagesManager _messagesManager;

@@ -7,6 +7,11 @@ using SimpleProject.Data;
 
 namespace SimpleProject.Sce
 {
+    /**
+    <summary> 
+    Обрабатывает события в меню.
+    </summary>
+    */
     class SceneServerMenu : IScenario, ISceneMenuMessages
     {
         Scenario _scenario;

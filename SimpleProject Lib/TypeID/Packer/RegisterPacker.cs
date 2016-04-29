@@ -7,6 +7,11 @@ namespace SimpleProject.Mess
 {
     using SizePacket = UInt16;
     using TypeID = Byte;
+    /**
+    <summary> 
+    Реестр всех упаковщиков сообщений.
+    </summary>
+    */
     public static class RegisterPacker
     {
 

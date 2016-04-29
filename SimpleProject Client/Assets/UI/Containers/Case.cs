@@ -2,6 +2,7 @@
 
 namespace SimpleProject.Sce
 {
+
     public class Case : MonoBehaviour
     {
         public GameObject MyObject;

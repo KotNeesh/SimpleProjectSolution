@@ -3,6 +3,11 @@
 
 namespace SimpleProject.Use
 {
+    /**
+    <summary> 
+    Хранит все игровые данные пользователя.
+    </summary>
+    */
     public class UserProfile : IUserProfile
     {
         public String Nick { get; set; }

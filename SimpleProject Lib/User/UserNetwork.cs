@@ -4,6 +4,11 @@ using SimpleProject.Net;
 
 namespace SimpleProject.Use
 {
+    /**
+    <summary> 
+    Хранит все данные для интернет протокола.
+    </summary>
+    */
     public class UserNetwork : IUserNetwork
     {
         public TcpClient Socket { get; set; }
