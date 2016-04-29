@@ -7,7 +7,7 @@ namespace SimpleProject.Sce
 {
     public class GUISign : MonoBehaviour, IGUISign
     {
-        public SceneMenu Menu;
+        public SceneClientMenu Menu;
         public IMessageContainer _container = new MessageContainer();
 
         private MessageAccount.StateType _state;

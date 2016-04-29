@@ -20,7 +20,7 @@ namespace SimpleProject
            _messagesManager = new MessagesManager();
             _network = new NetworkServerMachine(_messagesManager);
             cc = new ConsoleCtrl();
-            Parameters p = new Parameters(_messagesManager, _scene);
+            ParametersServer p = new ParametersServer(_messagesManager, _scene);
             _scenario = new ScenarioMachine(p);
             _scenario.AddScenario(_messagesManager);
             _scenario.AddScenario(_scene);

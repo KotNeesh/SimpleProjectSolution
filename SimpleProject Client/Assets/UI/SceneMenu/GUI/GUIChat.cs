@@ -7,7 +7,7 @@ namespace SimpleProject.Sce
 {
     public class GUIChat : MonoBehaviour
     {
-        public SceneMenu Menu;
+        public SceneClientMenu Menu;
         public Button ButtonSend;
         public InputField InputChat;
         public Text OutputChat;

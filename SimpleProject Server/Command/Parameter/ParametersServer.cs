@@ -1,22 +1,19 @@
-﻿using SimpleProject.Sce;
-using SimpleProject.Mess;
+﻿using SimpleProject.Mess;
+using SimpleProject.Sce;
 
 namespace SimpleProject.Comm
 {
-    class Parameters : IParameters,
+    class ParametersServer : IParameters,
         IParametersSceneMenuMessages,
         IParametersMessagesManagerScenario
     {
         MessagesManager _messagesManager;
         SceneMenu _scene;
-        public Parameters(MessagesManager messagesManager, SceneMenu scene)
+        public ParametersServer(MessagesManager messagesManager, SceneMenu scene)
         {
             _messagesManager = messagesManager;
             _scene = scene;
         }
-
-        
-
         ISceneMenuMessages IParametersSceneMenuMessages.Get()
         {
             return _scene;

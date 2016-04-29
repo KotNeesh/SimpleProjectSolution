@@ -26,7 +26,7 @@ namespace SimpleProject.Comm
             _scenarios = null;
         }
 
-        protected override bool DoAnytghing()
+        protected override bool DoAnything()
         {
             foreach(IScenario s in _scenarios)
             {

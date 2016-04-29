@@ -68,9 +68,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Command\Parameter\Parameters.cs" />
-    <Compile Include="Assets\MainClient.cs" />
-    <Compile Include="Assets\Network\NetworkMachine.cs" />
+    <Compile Include="Assets\Command\Parameter\ParametersClient.cs" />
+    <Compile Include="Assets\Client.cs" />
+    <Compile Include="Assets\Network\NetworkClientMachine.cs" />
     <Compile Include="Assets\UI\Containers\Case.cs" />
     <Compile Include="Assets\UI\Containers\IMessageContainer.cs" />
     <Compile Include="Assets\UI\Containers\MessageContainer.cs" />
@@ -87,7 +87,7 @@
     <Compile Include="Assets\UI\SceneMenu\GUI\GUIAccount.cs" />
     <Compile Include="Assets\UI\SceneMenu\GUI\GUIChat.cs" />
     <Compile Include="Assets\UI\SceneMenu\GUI\GUIProfile.cs" />
-    <Compile Include="Assets\UI\SceneMenu\SceneMenu.cs" />
+    <Compile Include="Assets\UI\SceneMenu\SceneClientMenu.cs" />
     <Compile Include="Assets\UI\SceneMenu\Window\GUI\ButtonSign.cs" />
     <Compile Include="Assets\UI\SceneMenu\Window\GUI\GUISign.cs" />
     <Compile Include="Assets\UI\SceneMenu\Window\GUI\IGUISign.cs" />

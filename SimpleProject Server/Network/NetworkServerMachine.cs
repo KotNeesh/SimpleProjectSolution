@@ -34,7 +34,7 @@ namespace SimpleProject.Net
                 cl.Socket.Close();
             }
         }
-        protected override bool DoAnytghing()
+        protected override bool DoAnything()
         {
             AddClients();
             SendAll();

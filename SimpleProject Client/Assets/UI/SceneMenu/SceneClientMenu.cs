@@ -4,7 +4,7 @@ using SimpleProject.Mess;
 
 namespace SimpleProject.Sce
 {
-    public class SceneMenu : MonoBehaviour, ISceneMenuMessages
+    public class SceneClientMenu : MonoBehaviour, ISceneMenuMessages
     {
         public GUIAccount Account;
         public GUISign Sign;

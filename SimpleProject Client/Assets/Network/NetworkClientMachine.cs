@@ -8,13 +8,13 @@ using SimpleProject.Mess;
 
 namespace SimpleProject.Net
 {
-    sealed class NetworkMachine : StateMachine
+    sealed class NetworkClientMachine : StateMachine
     {
         bool _isConnected;
         IUserNetwork _server;
         IPAddress _ip;
         private IMessagesManagerNetwork _messagesManager;
-        public NetworkMachine(IMessagesManagerNetwork messagesManager)
+        public NetworkClientMachine(IMessagesManagerNetwork messagesManager)
         {
             _isConnected = false;
             _ip = IPAddress.Parse("127.0.0.1");
@@ -32,7 +32,7 @@ namespace SimpleProject.Net
         {
             _server.Socket.Close();
         }
-        protected override bool DoAnytghing()
+        protected override bool DoAnything()
         {
             Thread.Sleep(100);
             CheckConnection();
