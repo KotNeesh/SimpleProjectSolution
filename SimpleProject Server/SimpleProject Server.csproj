@@ -62,7 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Command\Parameter\Parameters.cs" />
-    <Compile Include="Database\Accounts.cs" />
+    <Compile Include="Database\DataSet.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>

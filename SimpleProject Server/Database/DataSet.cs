@@ -3,9 +3,9 @@ using System.Data.SqlClient;
 using System.Data;
 using SimpleProject.Use;
 
-namespace SimpleProject
+namespace SimpleProject.Data
 {
-    class Accounts
+    class DataSet
     {
         private static string path =Environment.CurrentDirectory +
                                     @"\Database\Database.mdf;";

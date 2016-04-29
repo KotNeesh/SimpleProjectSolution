@@ -3,17 +3,18 @@ using System.Collections.Generic;
 using SimpleProject.Mess;
 using SimpleProject.Comm;
 using SimpleProject.Use;
+using SimpleProject.Data;
 
 namespace SimpleProject.Sce
 {
     class SceneMenu : IScenario, ISceneMenuMessages
     {
         Scenario _scenario;
-        Accounts _data;
+        DataSet _data;
         public SceneMenu()
         {
             _scenario = new Scenario();
-            _data = new Accounts();
+            _data = new DataSet();
         }
         public ICommand Get()
         {
