@@ -4,7 +4,7 @@ namespace SimpleProject.Sys
 {
     /**
     <summary>
-    Машина исполняющая операции и работающая на отдельном потоке.
+    Машина исполняющая операции и работающая на выделеном потоке.
     </summary>
     */
     public abstract class StateMachine
