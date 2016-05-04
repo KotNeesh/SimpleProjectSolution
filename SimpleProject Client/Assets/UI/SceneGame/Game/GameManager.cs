@@ -24,15 +24,23 @@ namespace SimpleProject.Sce
 
             _controller.GetMouse().Pos = GetMousePos();
             _controller.GetMouse().State.Set(Input.GetMouseButton(0));
+
             _controller.GetLink().Focus = _map.FindFocusSimplus();
-            
             _controller.GetLink().Update(_controller.GetMouse().State.Get());
+
+
+
             _map.Draw();
 
-            if (_controller.GetLink().Source != null && _controller.GetLink().Focus == null)
+            MessageLink msg = _controller.GetLink().GetMessage();
+            _map.SetMessage(msg);
+
+            if (_controller.GetLink().Source != null && _controller.GetLink().Focus != _controller.GetLink().Source && _controller.GetLink().Destination == null)
             {
                 Arrow.SetSource(_controller.GetLink().Source);
+
                 Arrow.SetDestination(GetMousePos());
+
                 Arrow.SetActive(true);
             }
             else

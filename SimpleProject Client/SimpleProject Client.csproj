@@ -68,22 +68,31 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\UI\SceneGame\Obj2D\Circle.cs" />
     <Compile Include="Assets\Command\Parameter\ParametersClient.cs" />
     <Compile Include="Assets\Client.cs" />
+    <Compile Include="Assets\UI\SceneGame\Obj2D\DragInfo.cs" />
+    <Compile Include="Assets\UI\SceneGame\Obj2D\IObj2D.cs" />
     <Compile Include="Assets\Network\NetworkClientMachine.cs" />
+    <Compile Include="Assets\UI\SceneGame\Obj2D\Point.cs" />
     <Compile Include="Assets\UI\Containers\Case.cs" />
     <Compile Include="Assets\UI\Containers\IMessageContainer.cs" />
     <Compile Include="Assets\UI\Containers\MessageContainer.cs" />
+    <Compile Include="Assets\UI\SceneGame\Arrow\TextureArrow.cs" />
     <Compile Include="Assets\UI\SceneGame\Arrow\GUIArrow.cs" />
     <Compile Include="Assets\UI\SceneGame\Controller\GameController.cs" />
+    <Compile Include="Assets\UI\SceneGame\Link\LinkInfo.cs" />
     <Compile Include="Assets\UI\SceneGame\Controller\MouseInfo.cs" />
+    <Compile Include="Assets\UI\SceneGame\Link\MessageLink.cs" />
     <Compile Include="Assets\UI\SceneGame\SceneGame.cs" />
     <Compile Include="Assets\UI\SceneGame\Simplus\GUISimplus.cs" />
-    <Compile Include="Assets\UI\SceneGame\Simplus\GameManager.cs" />
-    <Compile Include="Assets\UI\SceneGame\Simplus\GameMap.cs" />
+    <Compile Include="Assets\UI\SceneGame\Game\GameManager.cs" />
+    <Compile Include="Assets\UI\SceneGame\Game\GameMap.cs" />
+    <Compile Include="Assets\UI\SceneGame\Simplus\GUISimplusLink.cs" />
     <Compile Include="Assets\UI\SceneGame\Simplus\Simplus.cs" />
     <Compile Include="Assets\UI\SceneGame\other\GameManager.cs" />
     <Compile Include="Assets\UI\SceneGame\other\MyButton.cs" />
+    <Compile Include="Assets\UI\SceneGame\Simplus\SimplusLink.cs" />
     <Compile Include="Assets\UI\SceneMenu\GUI\GUIAccount.cs" />
     <Compile Include="Assets\UI\SceneMenu\GUI\GUIChat.cs" />
     <Compile Include="Assets\UI\SceneMenu\GUI\GUIProfile.cs" />

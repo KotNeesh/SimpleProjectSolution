@@ -2,40 +2,7 @@
 
 namespace SimpleProject.Sce
 {
-    public class LinkInfo
-    {
-        public Simplus Source;
-        public Simplus Destination;
-        public Simplus Focus;
-        public bool IsReady
-        {
-            get
-            {
-                bool b1 = Source != null;
-                bool b2 = Destination != null;
-                return b1 && b2;
-            }
-        }
-        public void Update(HelperMouseState state)
-        {
-            if (state == HelperMouseState.Down)
-            {
-                Source = Focus;
-            }
-            else if (state == HelperMouseState.Up)
-            {
-                if (Focus == null ||  Focus == Source || Source == null)
-                {
-                    Source = null;
-                }
-                else
-                {
-                    Destination = Focus;
-                }
-                
-            }
-        }
-    }
+    
     public class ShearsInfo
     {
         public Vector2 Source;

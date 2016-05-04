@@ -7,10 +7,12 @@ namespace SimpleProject.Sce
 {
     public class Simplus
     {
-        
+        private SimplusLink _link;
         private GUISimplus _GUI;
+        Texture2D _texture;
         public Simplus(GameController controller, Texture2D texture, Vector2 pos)
         {
+            _texture = texture;
             _GUI = new GUISimplus(this, controller, texture, pos);
         }
         public bool IsFocus()
@@ -20,6 +22,10 @@ namespace SimpleProject.Sce
         public void Draw()
         {
             _GUI.Draw();
+            if (_link != null)
+            {
+                _link.Draw();
+            }
         }
         public Vector2 Pos
         {
@@ -27,6 +33,10 @@ namespace SimpleProject.Sce
             {
                 return _GUI.Pos;
             }
+        }
+        public void SetLink(Simplus destination)
+        {
+            _link = new SimplusLink(this, destination, _texture);
         }
     }
 }

@@ -8,21 +8,25 @@ namespace SimpleProject.Sce
 {
     public class GUIArrow : MonoBehaviour
     {
-        public GameObject MyObj;
-        public Image MyImage;
+        public GameObject _myObj;
+        public Image _myImage;
         private Simplus _source;
         private float _angle;
         private Vector2 _scale;
         void Start()
         {
             _scale = new Vector2(1f, 1f);
-            MyImage.sprite = Resources.Load<Sprite>("Arrow");
+            _myImage.sprite = Resources.Load<Sprite>("Arrow");
             
         }
 
         public void SetActive(bool value)
         {
-            MyObj.SetActive(value);
+            _myObj.SetActive(value);
+        }
+        public void Update()
+        {
+
         }
         public void SetSource(Simplus simplus)
         {
@@ -38,21 +42,11 @@ namespace SimpleProject.Sce
                 Vector3 axis = new Vector3(0f, 0f, 1f);
                 Vector2 point =  _source.Pos;
                 point.y = Screen.height - point.y;
-                MyObj.transform.Rotate(MyObj.transform.eulerAngles * (-1));
-                MyObj.transform.position = point + v;
-                MyObj.transform.RotateAround(point, axis, _angle);
-                MyObj.transform.localScale = _scale;
+                _myObj.transform.Rotate(_myObj.transform.eulerAngles * (-1));
+                _myObj.transform.position = point + v;
+                _myObj.transform.RotateAround(point, axis, _angle);
+                _myObj.transform.localScale = _scale;
             }
-        }
-        public void Turn()
-        {
-            if (_source != null)
-            {
-                Vector3 angle = new Vector3(0f, 0f, 1f);
-                Vector3 point = _source.Pos;
-                MyObj.transform.RotateAround(point, angle, 1);
-            }
-                
         }
         public void SetDestination(Vector2 mousePos)
         {
@@ -71,7 +65,25 @@ namespace SimpleProject.Sce
                 float length = vec.magnitude - 50;
                 _scale.x = length / 110;
             }
-             //MyObj.transform.forward = mousePos - (Vector2)MyObj.transform.position;
+        }
+        public void SetDestination(Simplus simplus)
+        {
+            if (_source != null)
+            {
+                Vector2 nor = new Vector2();
+                nor.x = 1;
+                nor.y = 0;
+                Vector2 vec = -_source.Pos;// + mousePos -;
+                _angle = Vector2.Angle(nor, vec);
+                Vector3 cross = Vector3.Cross(nor, vec);
+                if (cross.z > 0)
+                {
+                    _angle = 360 - _angle;
+                }
+                float length = vec.magnitude - 50;
+                _scale.x = length / 110;
+            }
+            //MyObj.transform.forward = mousePos - (Vector2)MyObj.transform.position;
         }
     }
 }
