@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
+/*
 namespace SimpleProject.Sce
 {
     public class TextureArrow : MonoBehaviour
@@ -41,11 +42,12 @@ namespace SimpleProject.Sce
 
 
             _myObj.transform.Rotate(_myObj.transform.eulerAngles * (-1));
-            _myObj.transform.position = _drag._source;
+            //_myObj.transform.position = _drag._source;
             
-            _myObj.transform.RotateAround(_drag._source, axis, _angle);
+            //_myObj.transform.RotateAround(_drag._source, axis, _angle);
             _myObj.transform.localScale = _scale;
         }
 
     }
 }
+*/
